@@ -5,6 +5,40 @@
             <l></l><!-- Lang -->
             <f1></f1><!-- Subttl -->
             <a></a><!-- Globe -->
+            <stop></stop><!-- RED -->
+            <play_pause></play_pause><!-- GREEN -->
+            <f2></f2><!-- YELLOW -->
+            <f3></f3><!-- BLUE -->
+            <1></1><!-- 1 -->
+            <2></2><!-- 2 -->
+            <3></3><!-- 3 -->
+            <4></4><!-- 4 -->
+            <5></5><!-- 5 -->
+            <6></6><!-- 6 -->
+            <7></7><!-- 7 -->
+            <8></8><!-- 8 -->
+            <9></9><!-- 9 -->
+            <c></c><!-- Teletext -->
+            <0></0><!-- 0 -->
+            <r></r><!-- Refresh -->
+            <backspace></backspace><!-- Backspace -->
+            <up></up><!-- Up -->
+            <escape></escape><!-- Menu -->
+            <left></left><!-- Left -->
+            <enter></enter><!-- OK -->
+            <right></right><!-- Right -->
+            <f4></f4><!-- EPG -->
+            <down></down><!-- Down -->
+            <f5></f5><!-- FAV -->
+            <f6></f6><!-- Source -->
+            <i></i><!-- Info -->
+            <f7></f7><!-- Presets -->
+            <f9></f9><!-- Sleep -->
+            <volume_down></volume_down><!-- VOL - -->
+            <volume_up></volume_up><!-- VOL + -->
+            <volume_mute></volume_mute><!-- Mute -->
+            <pagedown></pagedown><!-- P - -->
+            <pageup></pageup><!-- P + -->
         </keyboard>
     </global>
     <!--<Home>

@@ -1,0 +1,14 @@
+<keymap>
+    <global>
+        <keyboard>
+            <z></z><!-- Screen -->
+            <l></l><!-- Lang -->
+            <f1></f1><!-- Subttl -->
+            <a></a><!-- Globe -->
+        </keyboard>
+    </global>
+    <!--<Home>
+        <keyboard>
+        </keyboard>
+    </Home>-->
+</keymap>

@@ -9,17 +9,17 @@
             <play_pause>PlayPause</play_pause><!-- GREEN -->
             <f2></f2><!-- YELLOW -->
             <f3></f3><!-- BLUE -->
-            <1>Number1</1><!-- 1 -->
-            <2>Number2</2><!-- 2 -->
-            <3>Number3</3><!-- 3 -->
-            <4>Number4</4><!-- 4 -->
-            <5>Number5</5><!-- 5 -->
-            <6>Number6</6><!-- 6 -->
-            <7>Number7</7><!-- 7 -->
-            <8>Number8</8><!-- 8 -->
-            <9>Number9</9><!-- 9 -->
+            <one>Number1</one><!-- 1 -->
+            <two>Number2</two><!-- 2 -->
+            <three>Number3</three><!-- 3 -->
+            <four>Number4</four><!-- 4 -->
+            <five>Number5</five><!-- 5 -->
+            <six>Number6</six><!-- 6 -->
+            <seven>Number7</seven><!-- 7 -->
+            <eight>Number8</eight><!-- 8 -->
+            <nine>Number9</nine><!-- 9 -->
             <c>ContextMenu</c><!-- Teletext -->
-            <0>Number0</0><!-- 0 -->
+            <zero>Number0</zero><!-- 0 -->
             <r>scanitem</r><!-- Refresh -->
             <backspace>Back</backspace><!-- Back -->
             <up>Up</up><!-- Up -->

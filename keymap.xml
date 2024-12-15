@@ -1,48 +1,59 @@
 <keymap>
     <global>
         <keyboard>
-            <z></z><!-- Screen -->
-            <l></l><!-- Lang -->
-            <f1></f1><!-- Subttl -->
-            <a></a><!-- Globe -->
-            <stop></stop><!-- RED -->
-            <play_pause></play_pause><!-- GREEN -->
+            <z>CodecInfo</z><!-- Screen -->
+            <l>CycleSubtitle</l><!-- Lang -->
+            <f1>subtitledelay</f1><!-- Subttl -->
+            <a>audiodelay</a><!-- Globe -->
+            <stop>Stop</stop><!-- RED -->
+            <play_pause>PlayPause</play_pause><!-- GREEN -->
             <f2></f2><!-- YELLOW -->
             <f3></f3><!-- BLUE -->
-            <1></1><!-- 1 -->
-            <2></2><!-- 2 -->
-            <3></3><!-- 3 -->
-            <4></4><!-- 4 -->
-            <5></5><!-- 5 -->
-            <6></6><!-- 6 -->
-            <7></7><!-- 7 -->
-            <8></8><!-- 8 -->
-            <9></9><!-- 9 -->
-            <c></c><!-- Teletext -->
-            <0></0><!-- 0 -->
-            <r></r><!-- Refresh -->
-            <backspace></backspace><!-- Backspace -->
-            <up></up><!-- Up -->
-            <escape></escape><!-- Menu -->
-            <left></left><!-- Left -->
-            <enter></enter><!-- OK -->
-            <right></right><!-- Right -->
+            <1>Number1</1><!-- 1 -->
+            <2>Number2</2><!-- 2 -->
+            <3>Number3</3><!-- 3 -->
+            <4>Number4</4><!-- 4 -->
+            <5>Number5</5><!-- 5 -->
+            <6>Number6</6><!-- 6 -->
+            <7>Number7</7><!-- 7 -->
+            <8>Number8</8><!-- 8 -->
+            <9>Number9</9><!-- 9 -->
+            <c>ContextMenu</c><!-- Teletext -->
+            <0>Number0</0><!-- 0 -->
+            <r>scanitem</r><!-- Refresh -->
+            <backspace>Back</backspace><!-- Back -->
+            <up>Up</up><!-- Up -->
+            <escape>PreviousMenu</escape><!-- Menu -->
+            <left>Left</left><!-- Left -->
+            <enter>Select</enter><!-- OK -->
+            <right>Right</right><!-- Right -->
             <f4></f4><!-- EPG -->
-            <down></down><!-- Down -->
+            <down>Down</down><!-- Down -->
             <f5></f5><!-- FAV -->
             <f6></f6><!-- Source -->
-            <i></i><!-- Info -->
+            <i>Info</i><!-- Info -->
             <f7></f7><!-- Presets -->
             <f9></f9><!-- Sleep -->
-            <volume_down></volume_down><!-- VOL - -->
-            <volume_up></volume_up><!-- VOL + -->
-            <volume_mute></volume_mute><!-- Mute -->
-            <pagedown></pagedown><!-- P - -->
-            <pageup></pageup><!-- P + -->
+            <volume_down>VolumeDown</volume_down><!-- VOL - -->
+            <volume_up>VolumeUp</volume_up><!-- VOL + -->
+            <volume_mute>Mute</volume_mute><!-- Mute -->
+            <pagedown>StepBack</pagedown><!-- P - -->
+            <pageup>StepForward</pageup><!-- P + -->
         </keyboard>
     </global>
     <!--<Home>
         <keyboard>
+        TODO mode specific:
+            Enter ?
+            OSD
+            NextSubtitle
+            PlayerProcessInfo
+            Playlist
+            Menu
+            CreateBookmark
+        TODO
+            noop default bindings
+            jump to settings
         </keyboard>
     </Home>-->
 </keymap>

@@ -1,36 +1,56 @@
 <keymap>
+
+    <!--
+        The 7 buttons on the Apple remote are automatically mapped to
+        the following keycodes by libinput:
+
+        Up          115     KEY_VOLUMEUP
+        Down        114     KEY_VOLUMEDOWN
+        Left        158     KEY_BACK
+        Right       159     KEY_FORWARD
+        Enter       28      KEY_ENTER
+        Menu        139     KEY_MENU
+        Play/Pause  164     KEY_PLAYPAUSE
+    -->
+
     <global>
         <keyboard>
-            <!-- up arrow -->
-            <volume_up>Up</volume_up>
-            <!-- down arrow -->
-            <volume_down>Down</volume_down>
-            <!-- left arrow -->
-            <backspace>Left</backspace><!-- Back -->
-            <!-- right arrow -->
-            <!-- TODO what is it -->
-
-            <!-- centre button -->
-
-            <!-- menu button -->
-
-            <!-- play/pause button -->
-
-            <play_pause>PlayPause</play_pause><!-- GREEN -->
-            <key id="61952">Quit</key><!-- Power -->
-            <c>ContextMenu</c><!-- Teletext -->
-            <r>scanitem</r><!-- Refresh -->
-            <backspace>Back</backspace><!-- Back -->
-            <up>Up</up><!-- Up -->
-            <escape>PreviousMenu</escape><!-- Menu -->
-            <left>Left</left><!-- Left -->
-            <enter>Select</enter><!-- OK -->
-            <right>Right</right><!-- Right -->
-            <down>Down</down><!-- Down -->
-            <pagedown>StepBack</pagedown><!-- P - -->
-            <pageup>StepForward</pageup><!-- P + -->
+            <key id="115">Up</key>
+            <key id="114">Down</key>
+            <key id="158">Left</key>
+            <key id="159">Right</key>
+            <key id="28">Select</key>
+            <key id="139">ContextMenu</key>
+            <key id="164">PlayPause</key>
+            <key mod="longpress" id="115">VolumeUp</key>
+            <key mod="longpress" id="114">VolumeDown</key>
+            <key mod="longpress" id="158">Rewind</key>
+            <key mod="longpress" id="159">FastForward</key>
+            <key mod="longpress" id="28">ActivateWindow(shutdownmenu)</key>
+            <key mod="longpress" id="139">PreviousMenu</key>
+            <key mod="longpress" id="164">Stop</key>
         </keyboard>
     </global>
+
+    <fullscreenvideo>
+        <keyboard>
+            <key id="115">Up</key>
+            <key id="114">Down</key>
+            <key id="158">Left</key>
+            <key id="159">Right</key>
+            <key id="28">Select</key>
+            <key id="139">ContextMenu</key>
+            <key id="164">PlayPause</key>
+            <key mod="longpress" id="115">VolumeUp</key>
+            <key mod="longpress" id="114">VolumeDown</key>
+            <key mod="longpress" id="158">Rewind</key>
+            <key mod="longpress" id="159">FastForward</key>
+            <key mod="longpress" id="28">ActivateWindow(osdsubtitlesettings)</key>
+            <key mod="longpress" id="139">PreviousMenu</key>
+            <key mod="longpress" id="164">Stop</key>
+        </keyboard>
+    </fullscreenvideo>
+
     <!--<Home>
         <keyboard>
         TODO mode specific:

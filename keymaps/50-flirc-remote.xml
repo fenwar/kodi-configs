@@ -1,13 +1,14 @@
 <keymap>
     <global>
         <keyboard>
+            <key id="61952">Quit</key><!-- Power -->
             <z>CodecInfo</z><!-- Screen -->
             <l>CycleSubtitle</l><!-- Lang -->
             <f1>subtitledelay</f1><!-- Subttl -->
             <a>audiodelay</a><!-- Globe -->
             <stop>Stop</stop><!-- RED -->
             <play_pause>PlayPause</play_pause><!-- GREEN -->
-            <f2></f2><!-- YELLOW -->
+            <f2>ActivateWindow(osdsubtitlesettings)</f2><!-- YELLOW -->
             <f3></f3><!-- BLUE -->
             <one>Number1</one><!-- 1 -->
             <two>Number2</two><!-- 2 -->
@@ -32,7 +33,7 @@
             <f5></f5><!-- FAV -->
             <f6></f6><!-- Source -->
             <i>Info</i><!-- Info -->
-            <f7></f7><!-- Presets -->
+            <f7>ActivateWindow(settings)</f7><!-- Presets -->
             <f9></f9><!-- Sleep -->
             <volume_down>VolumeDown</volume_down><!-- VOL - -->
             <volume_up>VolumeUp</volume_up><!-- VOL + -->

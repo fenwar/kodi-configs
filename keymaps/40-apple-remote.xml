@@ -1,0 +1,49 @@
+<keymap>
+    <global>
+        <keyboard>
+            <!-- up arrow -->
+            <volume_up>Up</volume_up>
+            <!-- down arrow -->
+            <volume_down>Down</volume_down>
+            <!-- left arrow -->
+            <backspace>Left</backspace><!-- Back -->
+            <!-- right arrow -->
+            <!-- TODO what is it -->
+
+            <!-- centre button -->
+
+            <!-- menu button -->
+
+            <!-- play/pause button -->
+
+            <play_pause>PlayPause</play_pause><!-- GREEN -->
+            <key id="61952">Quit</key><!-- Power -->
+            <c>ContextMenu</c><!-- Teletext -->
+            <r>scanitem</r><!-- Refresh -->
+            <backspace>Back</backspace><!-- Back -->
+            <up>Up</up><!-- Up -->
+            <escape>PreviousMenu</escape><!-- Menu -->
+            <left>Left</left><!-- Left -->
+            <enter>Select</enter><!-- OK -->
+            <right>Right</right><!-- Right -->
+            <down>Down</down><!-- Down -->
+            <pagedown>StepBack</pagedown><!-- P - -->
+            <pageup>StepForward</pageup><!-- P + -->
+        </keyboard>
+    </global>
+    <!--<Home>
+        <keyboard>
+        TODO mode specific:
+            Enter ?
+            OSD
+            NextSubtitle
+            PlayerProcessInfo
+            Playlist
+            Menu
+            CreateBookmark
+        TODO
+            noop default bindings
+            jump to settings
+        </keyboard>
+    </Home>-->
+</keymap>

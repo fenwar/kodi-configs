@@ -100,9 +100,8 @@
     <RadioTimers></RadioTimers>
     <RadioTimerRules></RadioTimerRules>
     <RadioGuide></RadioGuide>
-    
+
     <FileManager></FileManager>
-    
 
     <MusicPlaylist/>
     <MusicPlaylistEditor/>

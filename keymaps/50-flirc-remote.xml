@@ -35,8 +35,8 @@
             <i>Info</i><!-- Info -->
             <f7>ActivateWindow(settings)</f7><!-- Presets -->
             <f9></f9><!-- Sleep -->
-            <volume_down>VolumeDown</volume_down><!-- VOL - -->
-            <volume_up>VolumeUp</volume_up><!-- VOL + -->
+            <!--<volume_down>VolumeDown</volume_down>--><!-- VOL - -->
+            <!--<volume_up>VolumeUp</volume_up>--><!-- VOL + -->
             <volume_mute>Mute</volume_mute><!-- Mute -->
             <pagedown>StepBack</pagedown><!-- P - -->
             <pageup>StepForward</pageup><!-- P + -->

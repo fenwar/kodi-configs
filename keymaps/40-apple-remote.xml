@@ -9,49 +9,151 @@
         Left        158     KEY_BACK
         Right       159     KEY_FORWARD
         Enter       28      KEY_ENTER
-        Menu        139     KEY_MENU
+        Menu        139     KEY_MENU - key id 61952
         Play/Pause  164     KEY_PLAYPAUSE
     -->
 
     <global>
         <keyboard>
             <volume_up>Up</volume_up>
+            <volume_up mod="longpress"></volume_up>
             <volume_down>Down</volume_down>
+            <volume_down mod="longpress"></volume_down>
             <browser_back>Left</browser_back>
+            <browser_back mod="longpress"></browser_back>
             <browser_forward>Right</browser_forward>
+            <browser_forward mod="longpress"></browser_forward>
             <return>Select</return>
-            <key id="61952">ContextMenu</key>
-            <key id="61952" mod="longpress">PreviousMenu</key>
+            <return mod="longpress">ContextMenu</return>
+            <key id="61952">PreviousMenu</key>
+            <key id="61952" mod="longpress">ActivateWindow(ShutdownMenu)</key>
             <play_pause>PlayPause</play_pause>
+            <play_pause mod="longpress">CreateBookmark</play_pause>
         </keyboard>
     </global>
 
-    <home>
+    <LoginScreen>
         <keyboard>
+            <volume_up></volume_up>
+            <volume_up mod="longpress"></volume_up>
+            <volume_down></volume_down>
+            <volume_down mod="longpress"></volume_down>
+            <browser_back></browser_back>
+            <browser_back mod="longpress"></browser_back>
+            <browser_forward></browser_forward>
+            <browser_forward mod="longpress"></browser_forward>
+            <return></return>
+            <return mod="longpress"></return>
+            <key id="61952"></key>
+            <key id="61952" mod="longpress"></key>
+            <play_pause></play_pause>
+            <play_pause mod="longpress"></play_pause>
         </keyboard>
-    </home>
+    </LoginScreen>
 
-    <fullscreenvideo>
+    <Home>
         <keyboard>
-            <browser_back mod="longpress">Rewind</browser_back>
-            <browser_forward mod="longpress">FastForward</browser_forward>
-            <return mod="longpress">ActivateWindow(osdsubtitlesettings)</return>
+            <volume_up></volume_up>
+            <volume_up mod="longpress"></volume_up>
+            <volume_down></volume_down>
+            <volume_down mod="longpress"></volume_down>
+            <browser_back></browser_back>
+            <browser_back mod="longpress"></browser_back>
+            <browser_forward></browser_forward>
+            <browser_forward mod="longpress"></browser_forward>
+            <return></return>
+            <return mod="longpress"></return>
+            <key id="61952"></key>
+            <key id="61952" mod="longpress"></key>
+            <play_pause></play_pause>
+            <play_pause mod="longpress"></play_pause>
         </keyboard>
-    </fullscreenvideo>
+    </Home>
 
-    <!--<Home>
+    <VirtualKeyboard>
         <keyboard>
-        TODO mode specific:
-            Enter ?
-            OSD
-            NextSubtitle
-            PlayerProcessInfo
-            Playlist
-            Menu
-            CreateBookmark
-        TODO
-            noop default bindings
-            jump to settings
+            <volume_up></volume_up>
+            <volume_up mod="longpress"></volume_up>
+            <volume_down></volume_down>
+            <volume_down mod="longpress"></volume_down>
+            <browser_back></browser_back>
+            <browser_back mod="longpress"></browser_back>
+            <browser_forward></browser_forward>
+            <browser_forward mod="longpress"></browser_forward>
+            <return></return>
+            <return mod="longpress"></return>
+            <key id="61952"></key>
+            <key id="61952" mod="longpress"></key>
+            <play_pause></play_pause>
+            <play_pause mod="longpress"></play_pause>
         </keyboard>
-    </Home>-->
+    </VirtualKeyboard>
+
+    <TVChannels></TVChannels>
+    <TVRecordings></TVRecordings>
+    <TVTimers></TVTimers>
+    <TVTimerRules></TVTimerRules>
+    <TVGuide></TVGuide>
+
+    <RadioChannels></RadioChannels>
+    <RadioRecordings></RadioRecordings>
+    <RadioTimers></RadioTimers>
+    <RadioTimerRules></RadioTimerRules>
+    <RadioGuide></RadioGuide>
+    
+    <FileManager></FileManager>
+    
+
+    <MusicPlaylist/>
+    <MusicPlaylistEditor/>
+    <Music/>
+    <FullscreenVideo/>
+    <FullscreenGame/>
+    <GameOSD/>
+    <GameSaves/>
+    <InGameSaves/>
+    <VideoTimeSeek/>
+    <FullscreenInfo/>
+    <PlayerControls/>
+    <Visualisation/>
+    <MusicOSD/>
+    <VisualisationPresetList/>
+    <SlideShow/>
+    <ScreenCalibration/>
+    <VideoOSD/>
+    <VideoMenu/>
+    <OSDVideoSettings/>
+    <OSDAudioSettings/>
+    <VideoBookmarks/>
+    <Videos/>
+    <VideoPlaylist/>
+    <Pictures/>
+    <ContextMenu/>
+    <MusicInformation/>
+    <MovieInformation/>
+    <PictureInfo/>
+    <Teletext/>
+    <FavouritesBrowser/>
+    <NumericInput/>
+    <FullscreenLiveTV/>
+    <FullscreenRadio/>
+    <FullscreenLiveTvPreview/>
+    <FullscreenRadioPreview/>
+    <FullscreenLiveTvInput/>
+    <FullscreenRadioInput/>
+    <PVROSDChannels/>
+    <PVRChannelGuide/>
+    <PVRSettings/>
+    <FileBrowser/>
+    <ShutdownMenu/>
+    <AddonInformation/>
+    <AddonSettings/>
+    <Addon/>
+    <Programs/>
+    <Settings/>
+    <MediaFilter/>
+    <Weather/>
+    <PlayerProcessInfo/>
+    <TextViewer/>
+
 </keymap>

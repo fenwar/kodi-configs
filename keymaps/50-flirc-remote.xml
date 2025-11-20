@@ -1,7 +1,7 @@
 <keymap>
     <global>
         <keyboard>
-            <key id="61952">Quit</key><!-- Power -->
+            <!--<key id="61952">Quit</key>--><!-- Power -->
             <z>CodecInfo</z><!-- Screen -->
             <l>CycleSubtitle</l><!-- Lang -->
             <f1>subtitledelay</f1><!-- Subttl -->

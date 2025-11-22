@@ -20,7 +20,7 @@
             <volume_down>Down</volume_down>
             <volume_down mod="longpress"></volume_down>
             <browser_back>Left</browser_back>
-            <browser_back mod="longpress"></browser_back>
+            <browser_back mod="longpress">Back</browser_back>
             <browser_forward>Right</browser_forward>
             <browser_forward mod="longpress"></browser_forward>
             <return>Select</return>
@@ -28,9 +28,59 @@
             <key id="61952">PreviousMenu</key>
             <key id="61952" mod="longpress">ActivateWindow(ShutdownMenu)</key>
             <play_pause>PlayPause</play_pause>
-            <play_pause mod="longpress">CreateBookmark</play_pause>
+            <play_pause mod="longpress">Stop</play_pause>
         </keyboard>
     </global>
+
+    <Home>
+        <keyboard>
+            <key id="61952">Close</key>
+        </keyboard>
+    </Home>
+
+    <ContextMenu>
+        <keyboard>
+            <key id="61952">Back</key>
+        </keyboard>
+    </ContextMenu>
+
+    <ShutdownMenu/>
+
+    <FullscreenVideo>
+        <keyboard>
+            <volume_up>subtitledelay</volume_up>
+            <volume_up mod="longpress">ActivateWindow(osdsubtitlesettings)</volume_up>
+            <volume_down>audiodelay</volume_down>
+            <volume_down mod="longpress">ActivateWindow(OSDAudioSettings)</volume_down>
+            <browser_back>StepBack</browser_back>
+            <browser_back mod="longpress">BigStepBack</browser_back>
+            <browser_forward>StepForward</browser_forward>
+            <browser_forward mod="longpress">BigStepForward</browser_forward>
+            <return>OSD</return>
+            <return mod="longpress">CreateBookmark</return>
+            <key id="61952">PreviousMenu</key>
+            <key id="61952" mod="longpress">ActivateWindow(ShutdownMenu)</key>
+            <play_pause>PlayPause</play_pause>
+            <play_pause mod="longpress">Stop</play_pause>
+        </keyboard>
+    </FullscreenVideo>
+
+    <sliderdialog>
+        <!-- used for the audio/subtitle delay -->
+        <keyboard>
+            <volume_up>Back</volume_up>
+            <volume_down>Back</volume_down>
+        </keyboard>
+    </sliderdialog>
+
+    <VirtualKeyboard>
+        <keyboard>
+            <browser_back>Left</browser_back>
+            <browser_back mod="longpress"></browser_back>
+        </keyboard>
+    </VirtualKeyboard>
+
+    <!-- Remaining default sections -->
 
     <LoginScreen>
         <keyboard>
@@ -51,43 +101,7 @@
         </keyboard>
     </LoginScreen>
 
-    <Home>
-        <keyboard>
-            <volume_up></volume_up>
-            <volume_up mod="longpress"></volume_up>
-            <volume_down></volume_down>
-            <volume_down mod="longpress"></volume_down>
-            <browser_back></browser_back>
-            <browser_back mod="longpress"></browser_back>
-            <browser_forward></browser_forward>
-            <browser_forward mod="longpress"></browser_forward>
-            <return></return>
-            <return mod="longpress"></return>
-            <key id="61952"></key>
-            <key id="61952" mod="longpress"></key>
-            <play_pause></play_pause>
-            <play_pause mod="longpress"></play_pause>
-        </keyboard>
-    </Home>
-
-    <VirtualKeyboard>
-        <keyboard>
-            <volume_up></volume_up>
-            <volume_up mod="longpress"></volume_up>
-            <volume_down></volume_down>
-            <volume_down mod="longpress"></volume_down>
-            <browser_back></browser_back>
-            <browser_back mod="longpress"></browser_back>
-            <browser_forward></browser_forward>
-            <browser_forward mod="longpress"></browser_forward>
-            <return></return>
-            <return mod="longpress"></return>
-            <key id="61952"></key>
-            <key id="61952" mod="longpress"></key>
-            <play_pause></play_pause>
-            <play_pause mod="longpress"></play_pause>
-        </keyboard>
-    </VirtualKeyboard>
+    <VirtualKeyboard></VirtualKeyboard>
 
     <TVChannels></TVChannels>
     <TVRecordings></TVRecordings>
@@ -106,7 +120,6 @@
     <MusicPlaylist/>
     <MusicPlaylistEditor/>
     <Music/>
-    <FullscreenVideo/>
     <FullscreenGame/>
     <GameOSD/>
     <GameSaves/>
@@ -127,7 +140,6 @@
     <Videos/>
     <VideoPlaylist/>
     <Pictures/>
-    <ContextMenu/>
     <MusicInformation/>
     <MovieInformation/>
     <PictureInfo/>
@@ -144,7 +156,6 @@
     <PVRChannelGuide/>
     <PVRSettings/>
     <FileBrowser/>
-    <ShutdownMenu/>
     <AddonInformation/>
     <AddonSettings/>
     <Addon/>

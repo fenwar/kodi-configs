@@ -1,60 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <keymap>
+
+    <!--
+        The buttons on the Flirc remote are mapped as closely as possible to
+        Kodi defaults. The full mapping is listed in my TV repo, buttons.txt.
+    -->
+
     <global>
         <keyboard>
-            <!--<key id="61952">Quit</key>--><!-- Power -->
-            <z>CodecInfo</z><!-- Screen -->
-            <l>CycleSubtitle</l><!-- Lang -->
-            <f1>subtitledelay</f1><!-- Subttl -->
-            <a>audiodelay</a><!-- Globe -->
-            <stop>Stop</stop><!-- RED -->
-            <play_pause>PlayPause</play_pause><!-- GREEN -->
-            <f2>ActivateWindow(osdsubtitlesettings)</f2><!-- YELLOW -->
-            <f3></f3><!-- BLUE -->
-            <one>Number1</one><!-- 1 -->
-            <two>Number2</two><!-- 2 -->
-            <three>Number3</three><!-- 3 -->
-            <four>Number4</four><!-- 4 -->
-            <five>Number5</five><!-- 5 -->
-            <six>Number6</six><!-- 6 -->
-            <seven>Number7</seven><!-- 7 -->
-            <eight>Number8</eight><!-- 8 -->
-            <nine>Number9</nine><!-- 9 -->
-            <c>ContextMenu</c><!-- Teletext -->
-            <zero>Number0</zero><!-- 0 -->
-            <r>scanitem</r><!-- Refresh -->
-            <backspace>Back</backspace><!-- Back -->
-            <up>Up</up><!-- Up -->
-            <escape>PreviousMenu</escape><!-- Menu -->
-            <left>Left</left><!-- Left -->
-            <enter>Select</enter><!-- OK -->
-            <right>Right</right><!-- Right -->
-            <f4></f4><!-- EPG -->
-            <down>Down</down><!-- Down -->
-            <f5></f5><!-- FAV -->
-            <f6></f6><!-- Source -->
-            <i>Info</i><!-- Info -->
-            <f7>ActivateWindow(settings)</f7><!-- Presets -->
-            <f9></f9><!-- Sleep -->
-            <!--<volume_down>VolumeDown</volume_down>--><!-- VOL - -->
-            <!--<volume_up>VolumeUp</volume_up>--><!-- VOL + -->
-            <volume_mute>Mute</volume_mute><!-- Mute -->
-            <pagedown>StepBack</pagedown><!-- P - -->
-            <pageup>StepForward</pageup><!-- P + -->
         </keyboard>
     </global>
-    <!--<Home>
+
+    <Home>
         <keyboard>
-        TODO mode specific:
-            Enter ?
-            OSD
-            NextSubtitle
-            PlayerProcessInfo
-            Playlist
-            Menu
-            CreateBookmark
-        TODO
-            noop default bindings
-            jump to settings
         </keyboard>
-    </Home>-->
+    </Home>
+
+    <ContextMenu>
+        <keyboard>
+        </keyboard>
+    </ContextMenu>
+
+    <ShutdownMenu/>
+
+    <FullscreenVideo>
+        <keyboard>
+        </keyboard>
+    </FullscreenVideo>
+
+    <sliderdialog>
+        <!-- used for the audio/subtitle delay -->
+        <keyboard>
+        </keyboard>
+    </sliderdialog>
+
+    <VirtualKeyboard>
+        <keyboard>
+        </keyboard>
+    </VirtualKeyboard>
+
+    <!-- Remaining default sections -->
+
+    <!--
+        <keyboard>
+            <volume_up></volume_up>
+            <volume_up mod="longpress"></volume_up>
+            <volume_down></volume_down>
+            <volume_down mod="longpress"></volume_down>
+            <browser_back></browser_back>
+            <browser_back mod="longpress"></browser_back>
+            <browser_forward></browser_forward>
+            <browser_forward mod="longpress"></browser_forward>
+            <return></return>
+            <return mod="longpress"></return>
+            <key id="61952"></key>
+            <key id="61952" mod="longpress"></key>
+            <play_pause></play_pause>
+            <play_pause mod="longpress"></play_pause>
+        </keyboard>
+    -->
+
+    <LoginScreen></LoginScreen>
+
+    <TVChannels></TVChannels>
+    <TVRecordings></TVRecordings>
+    <TVTimers></TVTimers>
+    <TVTimerRules></TVTimerRules>
+    <TVGuide></TVGuide>
+
+    <RadioChannels></RadioChannels>
+    <RadioRecordings></RadioRecordings>
+    <RadioTimers></RadioTimers>
+    <RadioTimerRules></RadioTimerRules>
+    <RadioGuide></RadioGuide>
+
+    <FileManager></FileManager>
+
+    <MusicPlaylist/>
+    <MusicPlaylistEditor/>
+    <Music/>
+    <FullscreenGame/>
+    <GameOSD/>
+    <GameSaves/>
+    <InGameSaves/>
+    <VideoTimeSeek/>
+    <FullscreenInfo/>
+    <PlayerControls/>
+    <Visualisation/>
+    <MusicOSD/>
+    <VisualisationPresetList/>
+    <SlideShow/>
+    <ScreenCalibration/>
+    <VideoOSD/>
+    <VideoMenu/>
+    <OSDVideoSettings/>
+    <OSDAudioSettings/>
+    <VideoBookmarks/>
+    <Videos/>
+    <VideoPlaylist/>
+    <Pictures/>
+    <MusicInformation/>
+    <MovieInformation/>
+    <PictureInfo/>
+    <Teletext/>
+    <FavouritesBrowser/>
+    <NumericInput/>
+    <FullscreenLiveTV/>
+    <FullscreenRadio/>
+    <FullscreenLiveTvPreview/>
+    <FullscreenRadioPreview/>
+    <FullscreenLiveTvInput/>
+    <FullscreenRadioInput/>
+    <PVROSDChannels/>
+    <PVRChannelGuide/>
+    <PVRSettings/>
+    <FileBrowser/>
+    <AddonInformation/>
+    <AddonSettings/>
+    <Addon/>
+    <Programs/>
+    <Settings/>
+    <MediaFilter/>
+    <Weather/>
+    <PlayerProcessInfo/>
+    <TextViewer/>
+
 </keymap>
